@@ -12,16 +12,13 @@
       background-color: #f0f0f0;
       color: #333;
     }
-
     .top-bar {
       height: 6px;
       background-color: #00172D;
     }
-
     .top-section {
       background-color: #00172D;
     }
-
     .top-logo {
       width: 100%;
       max-width: 100%;
@@ -29,11 +26,9 @@
       object-fit: contain;
       display: block;
     }
-
     nav {
       background-color: #00172D;
     }
-
     nav ul {
       list-style: none;
       display: flex;
@@ -41,35 +36,29 @@
       margin: 0;
       padding: 10px 0;
     }
-
     nav ul li {
       margin: 0 15px;
     }
-
     nav ul li a {
       color: white;
       text-decoration: none;
       font-weight: bold;
     }
-
     section {
       padding: 40px 20px;
       background-color: white;
       margin-bottom: 20px;
     }
-
     h2 {
       text-align: center;
       color: #1e1e1e;
     }
-
     .areas-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 15px;
       margin-top: 20px;
     }
-
     .area-box {
       padding: 10px;
       border: 1px solid #ddd;
@@ -78,19 +67,16 @@
       text-align: center;
       font-weight: 600;
     }
-
     .area-box a {
       text-decoration: none;
       color: #222;
     }
-
     footer {
       background-color: #00172D;
       color: white;
       text-align: center;
       padding: 20px;
     }
-
     .social-icons a {
       color: white;
       margin: 0 10px;
@@ -100,10 +86,7 @@
 </head>
 <body>
 
-  <!-- Linha azul escuro fosco -->
   <div class="top-bar"></div>
-
-  <!-- Topo com imagem e menu -->
   <div class="top-section">
     <img src="LOGO.jpg" class="top-logo" />
     <nav>
@@ -111,7 +94,7 @@
         <li><a href="index.html">Início</a></li>
         <li><a href="consultas.html">Estrutura</a></li>
         <li><a href="contato.html">Contato</a></li>
-	<li><a href="duvidas.html">Dúvidas Frequentes</a></li>
+        <li><a href="duvidas.html">Dúvidas Frequentes</a></li>
         <li><a href="advogados.html">Advogados</a></li>
       </ul>
     </nav>
@@ -164,50 +147,42 @@
       📱 Instagram | 💼 LinkedIn | 👍 Facebook | 💬 WhatsApp | ▶️ YouTube
     </p>
   </section>
-<!-- Botão Estilo Advogado com Ícone de Homem com Paletó, Gravata e WhatsApp -->
-<a href="https://wa.me/5585989025764"
-   style="position: fixed; bottom: 50px; right: 50px; text-decoration: none; z-index: 1000;">
 
-  <!-- Ícone circular com animação pulsante e cor simples -->
-  <div class="pulse-button"
-       style="background-color: #25d366; width: 100px; height: 100px; border-radius: 50%;
-              display: flex; align-items: center; justify-content: center;
-              box-shadow: 0 6px 15px rgba(0,0,0,0.4); border: 3px solid #128c7e;">
-    <i class="fab fa-whatsapp" style="color: white; font-size: 40px;"></i>
-  </div>
+  <a href="https://wa.me/5585989025764"
+     style="position: fixed; bottom: 50px; right: 50px; text-decoration: none; z-index: 1000;">
+    <div class="pulse-button"
+         style="background-color: #25d366; width: 100px; height: 100px; border-radius: 50%;
+                display: flex; align-items: center; justify-content: center;
+                box-shadow: 0 6px 15px rgba(0,0,0,0.4); border: 3px solid #128c7e;">
+      <i class="fab fa-whatsapp" style="color: white; font-size: 40px;"></i>
+    </div>
+    <div style="text-align: center; font-size: 12px; margin-top: 10px;
+                font-weight: 700; font-family: 'Georgia', serif; letter-spacing: 1px; text-transform: uppercase;">
+      <span style="color: black;">ATENDIMENTO</span>
+    </div>
+  </a>
 
-  <!-- Texto com "ATENDIMENTO" em preto -->
-  <div style="text-align: center; font-size: 12px; margin-top: 10px;
-              font-weight: 700; font-family: 'Georgia', serif; letter-spacing: 1px; text-transform: uppercase;">
-    <span style="color: black;">ATENDIMENTO</span>
-  </div>
-</a>
-
-<!-- Estilo da animação pulsante -->
-<style>
-  .pulse-button {
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  <style>
+    .pulse-button {
+      animation: pulse 2s infinite;
     }
-    70% {
-      transform: scale(1.05);
-      box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
     }
-    100% {
-      transform: scale(1);
-      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
-    }
-  }
-</style>
+  </style>
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <footer>
     <p>© 2025 Gadelha & Wallacy Advogados. Todos os direitos reservados.</p>
